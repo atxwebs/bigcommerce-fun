@@ -25,7 +25,7 @@ if ($num_of_products <= 250) {
 }
 
 $processed = array(); //Collection returns duplicates sometimes, this will hold the ID of all products we processed. 
-$file = './qualityliquorstore.txt';
+$file = './output.txt';
 $fp = fopen($file, 'wb');
 
 $current_page = 1;
