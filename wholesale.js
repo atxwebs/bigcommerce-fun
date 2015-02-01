@@ -4,7 +4,6 @@
 <script>
 $(document).ready(function() {
     var wholesaler = false;
-    var price = document.querySelector(".Left .SideCategoryListRetail");
     $('div.SideCategoryListFlyout li').each(function(index) {
         var str1 = $(this).text();
         var str2 = "WholesaleJS";
