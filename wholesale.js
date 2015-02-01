@@ -1,5 +1,6 @@
 <!-- Script to detect Retail/Wholesale Customer .. Performs some action -->
 <!-- Must create category called WholesaleJS and assign to appropriate customer group -->
+<!-- This one for example would be added to the product.html, it is css div specific. -->
 <script>
 $(document).ready(function() {
     var wholesaler = false;
