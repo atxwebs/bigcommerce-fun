@@ -13,7 +13,7 @@ $(document).ready(function() {
     });      
     $("li:contains('WholesaleJS')").css("display","none");
 
-    if(wholesaler == false) {
+    if(!wholesaler) {
         //Hide pricing and add to cart functions here. Varies based on theme. Example:
         //var price = document.querySelector("ENTER ITS DIV CLASS HERE");
         //var cart = document.querySelector("ENTER ITS DIV CLASS HERE");
