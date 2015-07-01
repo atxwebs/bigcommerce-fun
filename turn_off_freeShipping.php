@@ -1,4 +1,4 @@
-<?php main();
+<?php
 /**
  * Turn on/off free shipping for ALL products in a store
  * @author rob mullins <mullinsr@live.com>
