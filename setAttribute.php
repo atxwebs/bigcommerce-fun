@@ -27,7 +27,7 @@ function main() {
   $attributes = array( //for example, this will turn on free shipping for all products:
     'is_free_shipping' => true
     //you can have multiple attributes here too
-  )
+  );
   
   $processed = setAttribute($attributes);
   
